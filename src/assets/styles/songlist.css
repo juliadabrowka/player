@@ -1,8 +1,3 @@
-.main-container {
-    display: flex;
-    flex-direction: column;
-}
-
 p {
     color: purple;
     font-weight: bold;
@@ -11,22 +6,22 @@ p {
 }
 
 .playlist-title {
-    display: flex;
     justify-content: center;
     margin-top: 4%;
     margin-left: 5%;
     width: 50%;
+}
+
+.playlist-title, .song-bar {
     justify-content: space-between;
 }
 
 .all-playlist-content {
-    box-sizing: content-box;
     height: 700px;
     overflow: scroll;
 }
 
 .upper-songlistbar{
-    display: flex;
     flex-direction: row;
     margin-bottom: 2%;
     font-size: small;
@@ -44,17 +39,15 @@ hr {
     width: 100%;
 }
 
-.song-details, .song-bar {
-    display: flex;
+.song-details, .song-bar, .main-container {
     flex-direction: column;
 }
 
-.song-bar {
-    justify-content: space-between;
+.song-details, .playlist-title, .song-bar, .main-container, .left-songbar-part, .upper-songlistbar {
+    display: flex;
 }
 
 .left-songbar-part {
-    display: flex;
     margin: 2% 18%;
     align-items: center;
 }

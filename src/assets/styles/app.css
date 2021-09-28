@@ -6,6 +6,6 @@ div{
     height: 800px;
     background-color: rgb(238, 239, 252);
     border-radius: 35px;
-    z-index: 1;
     font-family: 'Yaldevi', sans-serif;
+    box-sizing: content-box;
 }

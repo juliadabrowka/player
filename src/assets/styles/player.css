@@ -2,6 +2,8 @@
     background-image: url("http://etoall.se/wp-content/uploads/2013/02/Icona_Pop_2012-119598_ETOALL_low.jpg");
     background-size:cover;
     height: 620px;
+    position: relative;
+    justify-content: space-between;
 }
 
 .player, .upper-bar {
@@ -9,8 +11,15 @@
     border-top-right-radius: 35px;
 }
 
-.music-options {
+.player, .music-options, .play-options {
     display: flex;
+}
+
+.player, .middle-bar {
+    flex-direction: column;
+}
+
+.music-options {
     justify-content: space-between;
     width: 20%;
     padding: 0 31%;
@@ -18,10 +27,16 @@
 
 .marginset{
     display: inline-flex;
-    justify-content: center;
     position: relative;
-    width: 100%;
     margin: 5% 0%;
+}
+
+.marginset, .buttons {
+    justify-content: center;
+}
+
+.marginset, .play-options, .song-duration-bar {
+    width: 100%;
 }
 
 .upper-bar {
@@ -30,38 +45,31 @@
 
 
 .middle-bar {
-    width: 100%;
     height: 90px;
     background-color: rgba(89, 62, 119, 0.8);
-    display: flex;
+    display:inline-flex;
     justify-content:center;
-    flex-direction: column;
     text-align: center;
     color: white;
     font-weight: bold;
-    margin-top: 74%;
 }
 
 .song-duration-bar {
-    width: 100%;
     background-color: white;
     height: 5px;
 }
 
-.bottom-bar {
-    height:24%;
+.bottom-bar, .buttons {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    position: relative;
+}
+
+.buttons, .play-options {
+    align-items: center;
 }
 
 .play-options {
-    display: inline-flex;
-    justify-content:center;
-    align-items: center;
-    width: 100%;
+    justify-content:space-around;
     margin-top: 5%;
 }
 
