@@ -81,3 +81,9 @@
 .songtitle {
     font-size: medium;
 }
+
+@media screen and (max-width: 1070px) {
+    .bottom-bar { scale: 80%;}
+    .buttons { scale: 80% }
+    .artistname, .songtitle { scale: 80%;}
+}

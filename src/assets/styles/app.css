@@ -9,3 +9,7 @@ div{
     font-family: 'Yaldevi', sans-serif;
     box-sizing: content-box;
 }
+
+@media screen and (max-width: 1070px) {
+    div { scale: 80%}
+}
