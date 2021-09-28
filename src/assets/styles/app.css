@@ -1,5 +1,11 @@
-.background {
-    z-index: -1;
-    opacity: 0.8;
-    background-size: cover;
+div{
+    position: absolute;
+    top: 7%;
+    left: 35%;
+    width: 32%;
+    height: 800px;
+    background-color: rgb(238, 239, 252);
+    border-radius: 35px;
+    z-index: 1;
+    font-family: 'Yaldevi', sans-serif;
 }

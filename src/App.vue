@@ -1,8 +1,17 @@
 <template>
   <div>
-    <img src="./assets/images/background.jpg" alt="" class="background">
-    <router-view />
+    <SongListView />
   </div>
 </template>
 
-<style scoped src="./assets/styles/app.css"></style>
+<script>
+import SongListView from './views/SongListView.vue'
+
+export default {
+  components: {
+    SongListView
+  }
+}
+</script>
+
+<style scoped src='./assets/styles/app.css'></style>

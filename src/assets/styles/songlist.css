@@ -1,0 +1,60 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: purple;
+    font-weight: bold;
+    margin: 0;
+    font-size: large;
+}
+
+.playlist-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.all-playlist-content {
+    box-sizing: content-box;
+    height: 700px;
+    overflow: scroll;
+}
+
+.upper-songlistbar{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    font-size: small;
+}
+
+.separate-bar {
+    margin: 0% 2%;
+}
+
+hr {
+    width: 65%;
+}
+
+.song-details {
+    width: 100%;
+}
+
+.song-details, .song-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.song-bar {
+    justify-content: space-between;
+}
+
+.left-songbar-part {
+    display: flex;
+    margin: 2% 18%;
+    align-items: center;
+}
