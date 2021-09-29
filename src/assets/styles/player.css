@@ -70,12 +70,16 @@
 
 .play-options {
     justify-content:space-around;
-    margin-top: 7%;
+    margin-top: 8%;
 }
 
 .artistname {
     font-size: 25px;
     margin-bottom: 1%;
+}
+
+.bottom-bar { 
+    height: 100px;
 }
 
 .songtitle {
@@ -84,6 +88,23 @@
 
 @media screen and (max-width: 1070px) {
     .bottom-bar { scale: 80%;}
-    .buttons { scale: 80% }
     .artistname, .songtitle { scale: 80%;}
+}
+
+@media only screen and (max-width: 415px) {
+    .play-options { scale: 80%;}
+    .buttons { scale : 80%}
+}
+
+@media only screen 
+and (max-width: 305px) {
+    .play-options { scale: 70% }
+}
+
+
+@media only screen 
+and (max-width: 210px) {
+    .play-options { scale: 60%}
+    .artistname, .songtitle { scale: 70%}
+    .middle-bar { height: 80px;}
 }
